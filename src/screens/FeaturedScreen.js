@@ -103,8 +103,8 @@ export default class FeaturedScreen extends React.Component {
                 <LinearGradient colors={[this.gradient[0], this.gradient[1]]} style={styles.container}>
                     {this.renderHeader()}
                     {/* Debugging */}
-                    <View style={{ width: width, marginTop: 15, alignItems: 'center', width: width - 30, marginTop: height / 3.4 }}>
-                        <Text style={[systemWeights.thin, { color: 'white', fontSize: 24 }]}>Избранные трасляции</Text>
+                    <View style={{ width: width, marginTop: 15, alignItems: 'center', width: width - 30, marginTop: height / 3.25 }}>
+                        <Text style={[systemWeights.thin, { color: 'white', fontSize: 24 }]}>Избранные трансляции</Text>
                     </View>
                     {/* Debugging */}
                 </LinearGradient>

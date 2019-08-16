@@ -91,13 +91,12 @@ class ResultScreen extends React.Component {
 
     renderFeatured() {
         return (
-            <View style={{ flex: 1 }}>
-                <TouchableOpacity onPress={() => this.props.navigation.navigate('FeaturedScreen')}
-                    style={{ marginTop: height / 1.65 }}>
-                    <View style={{ width: width, flexDirection: 'row', justifyContent: 'flex-end' }}>
+            <View style={{ flex: 1, justifyContent: 'flex-end', marginRight: 2.5, marginBottom: 23.45 }}>
+                <View style={{ width: width, flexDirection: 'row', justifyContent: 'flex-end' }}>
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('FeaturedScreen')}>
                         <Icon name="md-heart" color="white" size={40} style={{ marginRight: 30 }} />
-                    </View>
-                </TouchableOpacity>
+                    </TouchableOpacity>
+                </View>
             </View>
         )
     }

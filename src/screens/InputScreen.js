@@ -142,11 +142,11 @@ class InputScreen extends React.Component {
 
     renderFeatured() {
         return (
-            <TouchableOpacity onPress={() => this.props.navigation.navigate('FeaturedScreen')}>
-                <View style={{ width: width, flexDirection: 'row', justifyContent: 'flex-end' }}>
+            <View style={{ width: width, flexDirection: 'row', justifyContent: 'flex-end' }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('FeaturedScreen')}>
                     <Icon name="md-heart" color="white" size={40} style={{ marginRight: 30 }} />
-                </View>
-            </TouchableOpacity>
+                </TouchableOpacity>
+            </View>
         )
     }
 
